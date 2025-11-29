@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+body{
+background: linear-gradient(40deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.clock{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    
+
+}
+.clock div{
+    border: 1px solid black;
+    padding:1rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg,rgba(176, 169, 169, 1) 0%, rgba(143, 181, 158, 1) 50%, rgba(247, 245, 223, 1) 100%);
+}
+.clock div p{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(199, 196, 196);
+}
